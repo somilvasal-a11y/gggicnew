@@ -1,0 +1,125 @@
+.footer {
+  background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+  color: #334155;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 20px 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.footer-info {
+  flex: 1 1 320px;
+  min-width: 280px;
+}
+
+.footer-title {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.footer-text {
+  margin: 0 0 22px;
+  line-height: 1.75;
+  color: #475569;
+}
+
+.footer-social {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 9999px;
+  background: #ffffff;
+  color: #334155;
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  transition: all 0.25s ease;
+}
+
+.footer-social a:hover {
+  transform: translateY(-2px);
+  background: #f8fafc;
+  color: #ff6b35;
+  border-color: rgba(255, 107, 53, 0.35);
+}
+
+.footer-map-wrapper {
+  flex: 1 1 420px;
+  min-width: 280px;
+}
+
+.footer-map-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.footer-map {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+.footer-map iframe {
+  width: 100%;
+  height: 240px;
+  border: 0;
+}
+
+.footer-bottom {
+  padding: 18px 20px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.back-to-top-btn {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #ff6b35 0%, #4ecdc4 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(255, 107, 53, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.back-to-top-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 32px 16px 20px;
+    flex-direction: column;
+  }
+
+  .footer-map iframe {
+    height: 220px;
+  }
+}
