@@ -41,14 +41,14 @@ const Contact = () => {
     {
       icon: <Phone size={24} />,
       title: "Phone",
-      content: "+91 XXXX-XXXX-XX",
-      link: "tel:+91XXXXXXXXXX"
+      content: "+91-9823591454",
+      link: "tel:+919823591454"
     },
     {
       icon: <Mail size={24} />,
       title: "Email",
-      content: "contact@gggic.in",
-      link: "mailto:contact@gggic.in"
+      content: "gggic@ggits.org",
+      link: "mailto:gggic@ggits.org"
     }
   ];
 
@@ -270,13 +270,13 @@ const Contact = () => {
         <div className="map-container">
           <iframe
             title="GGGIC Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.5532456345!2d79.197!3d23.1815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDEwJzUwLjQiTiA3OcKwMTEnNTAuNCJF!5e0!3m2!1sen!2sin!4v1234567890"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.123891079277!2d79.87025407271766!3d23.129146366171835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981b3caccc2274b%3A0xc066b027d5fb1488!2sGyan%20Ganga%20Institute%20of%20Technology%20%26%20Sciences%20(GGITS)%20-%20Best%20Engineering%20College%20in%20Jabalpur!5e0!3m2!1sen!2sus!4v1783325859574!5m2!1sen!2sus"
             width="100%"
-            height="500"
-            style={{ border: 'none', borderRadius: '1rem' }}
+            height="450"
+            style={{ border: '0' }}
             allowFullScreen=""
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerPolicy="strict-origin-when-cross-origin"
           ></iframe>
         </div>
       </section>
